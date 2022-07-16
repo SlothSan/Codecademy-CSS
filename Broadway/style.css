@@ -136,6 +136,12 @@ html, body {
     margin-bottom: 10px;
     border: 2px solid #333333; 
   }
+
+  footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+  }
   
   
   @media (max-width: 500px) {
