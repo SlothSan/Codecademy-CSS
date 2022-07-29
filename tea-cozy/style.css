@@ -55,3 +55,20 @@ a, a:hover, a:focus, a:active {
     justify-content: center;
     align-items: center;
 }
+
+.tea-of-the-month-container {
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tea-of-the-month-header {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
