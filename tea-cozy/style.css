@@ -139,7 +139,7 @@ a, a:hover, a:focus, a:active {
     height: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background: black;
     opacity: 1;
@@ -151,4 +151,11 @@ a, a:hover, a:focus, a:active {
     height: 200px;
     align-items: center;
     justify-content: space-around;
+}
+
+.footer-container {
+    margin-left: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
 }
