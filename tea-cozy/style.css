@@ -72,3 +72,37 @@ a, a:hover, a:focus, a:active {
     justify-content: center;
     align-items: center;
 }
+
+.tea-types-container {
+    margin-top: 20px;
+    gap: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tea-types-img-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tea-types-title {
+    margin-top: 10px;
+}
+
+.tea-types-image {
+    height: 200px;
+    width: 300px;;
+}
+
+.tea-types-container-two {
+    margin-top: 20px;
+    gap: 25px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
