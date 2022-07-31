@@ -9,6 +9,10 @@ body {
     color: seashell;
     opacity: 0.9;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-container {
@@ -105,4 +109,46 @@ a, a:hover, a:focus, a:active {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+
+.locations-container {
+    margin-top: 20px;
+    width: 1200px;
+    height: 500px;
+    background-image: url(./imgs/img-locations-background.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-title {
+    margin-bottom: 15px;
+}
+
+.location-card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.location-card {
+    gap: 25px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    opacity: 1;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
 }
